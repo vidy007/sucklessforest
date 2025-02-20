@@ -25,7 +25,7 @@ Actually it's [this one](./not-so-gruv-city.jpg) but in everforest colors (made 
 * resizecorners
 * statuspadding
 #### status monitor
-- slstatus
+* slstatus
 ### st
 #### patches
 * anysize
@@ -33,6 +33,15 @@ Actually it's [this one](./not-so-gruv-city.jpg) but in everforest colors (made 
 * bold-is-not-bright
 * boxdraw
 * scrollback (+ scrollback-mouse)
+### dmenu
+#### patches
+* bar-height
+* caseinsensitive
+* xyw
+#### scripts
+* powermenu
+* [clipmenu](https://github.com/cdown/clipmenu)
+* emoji menu *(private WIP for now)*
 ### other tools
 * slock
 * *(soon)* surf
