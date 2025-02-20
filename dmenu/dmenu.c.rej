@@ -1,0 +1,22 @@
+--- dmenu.c
++++ dmenu.c
+@@ -710,7 +709,7 @@ setup(void)
+ static void
+ usage(void)
+ {
+-	die("usage: dmenu [-bfiv] [-l lines] [-h height] [-p prompt] [-fn font] [-m monitor]\n"
++	die("usage: dmenu [-bfiv] [-l lines] [-p prompt] [-fn font] [-m monitor]\n"
+ 	    "             [-nb color] [-nf color] [-sb color] [-sf color] [-w windowid]");
+ }
+ 
+@@ -737,10 +736,6 @@ main(int argc, char *argv[])
+ 		/* these options take one argument */
+ 		else if (!strcmp(argv[i], "-l"))   /* number of lines in vertical list */
+ 			lines = atoi(argv[++i]);
+-		else if (!strcmp(argv[i], "-h")) { /* minimum height of one menu line */
+-			lineheight = atoi(argv[++i]);
+-			lineheight = MAX(lineheight, min_lineheight);
+-		}
+ 		else if (!strcmp(argv[i], "-m"))
+ 			mon = atoi(argv[++i]);
+ 		else if (!strcmp(argv[i], "-p"))   /* adds prompt to left of input field */
