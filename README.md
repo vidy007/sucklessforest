@@ -23,6 +23,7 @@ Actually it's [this one](./not-so-gruv-city.jpg) but in everforest colors (made 
 * bar-height
 * barpadding
 * resizecorners
+* statuspadding
 #### status monitor
 - slstatus
 ### st
