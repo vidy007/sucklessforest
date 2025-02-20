@@ -14,6 +14,7 @@ My first proper dwm rice with patches and my first try to use another colorschem
 ## more info
 ### wallpaper
 [here you go](./not-so-eforest-city.jpg)
+
 Actually it's [this one](./not-so-gruv-city.jpg) but in everforest colors (made with [gowall](https://github.com/Achno/gowall))
 ### dwm
 #### patches
